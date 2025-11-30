@@ -14,12 +14,12 @@ keywords = ["audio", "codec", "symphonia", "aac", "opus"]
 
 [workspace.dependencies]
 fdk-aac = "0.8"
-symphonia-core = { git = "https://github.com/aschey/Symphonia", rev = "ec7dff7c42ebca5fe034b8ff5c25cb93e8886988" }
+symphonia-core = { git = "https://github.com/pdeljanov/Symphonia", rev = "ec7dff7c42ebca5fe034b8ff5c25cb93e8886988" }
 opusic-sys = { version = "0.5.8", default-features = false }
 log = "0.4.28"
 
 # test dependencies
-symphonia = { git = "https://github.com/aschey/Symphonia", rev = "ec7dff7c42ebca5fe034b8ff5c25cb93e8886988" }
+symphonia = { git = "https://github.com/pdeljanov/Symphonia", rev = "ec7dff7c42ebca5fe034b8ff5c25cb93e8886988" }
 
 [workspace.lints.rustdoc]
 broken_intra_doc_links = "deny"
